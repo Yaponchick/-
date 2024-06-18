@@ -1,4 +1,36 @@
 ﻿/*
+using System;
+
+public struct Result
+{
+    public int min;
+    public int max;
+}
+
+public class Program
+{
+    public static Result GetMinMax()
+    {
+        // Примерный код для нахождения минимального и максимального значения
+        int min = 10; // Замените на фактическое вычисление минимального значения
+        int max = 20; // Замените на фактическое вычисление максимального значения
+
+        // Возвращаем экземпляр структуры Result с заданными значениями
+        return new Result { min = min, max = max };
+    }
+
+    public static void Main()
+    {
+        // Пример вызова функции GetMinMax и вывод результата
+        var result = GetMinMax(); // Пример вызова функции с пустым входным массивом
+
+        Console.WriteLine($"Min: {result.min}, Max: {result.max}");
+    }
+}
+
+*/
+
+
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Вопрос №2 - Устройство класса List (Дженерик)
 
@@ -105,7 +137,7 @@ namespace Vopros2
     }
 }
 
-*/
+
 
 
 
@@ -113,7 +145,7 @@ namespace Vopros2
 //~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 // Вопрос №3 - Функция Map/Filter/Reduce. Лямбда выражения
 
-/*
+
 //Пример делегата
 namespace Vopros3
 {
@@ -145,7 +177,7 @@ namespace Vopros3
         }
     }
 }
-*/
+
 
 
 
